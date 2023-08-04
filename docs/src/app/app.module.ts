@@ -3,18 +3,19 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { AboutPageModule } from './about-page/about-page.module';
-import { HomePageModule } from './home-page/home-page.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MainViewModule } from './main-view/main-view.module';
+
 
 @NgModule({
   declarations: [
     AppComponent,
   ],
   imports: [
-    AboutPageModule,
-    HomePageModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MainViewModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

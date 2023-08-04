@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AboutPageComponent } from './about-page.component';
+import { MainViewComponent } from './main-view.component';
 
-describe('AboutPageComponent', () => {
-  let component: AboutPageComponent;
-  let fixture: ComponentFixture<AboutPageComponent>;
+describe('MainViewComponent', () => {
+  let component: MainViewComponent;
+  let fixture: ComponentFixture<MainViewComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [AboutPageComponent]
+      declarations: [MainViewComponent]
     });
-    fixture = TestBed.createComponent(AboutPageComponent);
+    fixture = TestBed.createComponent(MainViewComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
